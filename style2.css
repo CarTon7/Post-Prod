@@ -9,12 +9,12 @@ h1  {
     text-shadow: 3px 3px 8px #000;
 }
 main {
-        min-height: 500px;
-    width: 90%;
-    background: rgba(245, 245, 245, 0.9);
-    /* Centrer une boite */
-    margin: 0 auto;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 1px #000000;
-    padding: 10px;
+    min-height: 500px;
+width: 90%;
+background: rgba(245, 245, 245, 0.9);
+/* Centrer une boite */
+margin: 0 auto;
+border-radius: 10px;
+box-shadow: 0px 0px 10px 1px #000000;
+padding: 10px;
 }
