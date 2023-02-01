@@ -9,7 +9,7 @@ h1  {
     text-shadow: 3px 3px 8px #000;
 }
 main {
-    min-height: 500px;
+    min-height: 250px;
 width: 90%;
 background: rgba(245, 245, 245, 0.9);
 /* Centrer une boite */

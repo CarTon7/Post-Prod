@@ -16,7 +16,7 @@
     
     <main>
         <div class="flexbox">
-        <form action="contact.html">
+        <form action="info_contact.php">
             <fieldset>
                 <legend>Contactez-nous:</legend>
                     <div>  
@@ -35,11 +35,15 @@
                     </div>
                         <br>
                     <div>
-                        <label for="sexe" placeholder="Sexe">Votre sexe:</label>
-                        <select name="sexe" id="sexe">
-                            <option value="Femme"></option>
-                            <option value="Homme"></option>
-                        </select>
+                        <p>Votre sexe:</p>
+                        <label for="femmeid">Femme</label>
+                        <input type="radio" name="sexe" id="femmeid">
+                        <label for="hommeid">Homme</label>
+                        <input type="radio" name="sexe" id="hommeid">
+                        <label for="nonbinaireid">Non-binaire</label>
+                        <input type="radio" name="sexe" id="nonbinaireid">
+                        <label for="bancpublicid">Banc publique</label>
+                        <input type="radio" name="sexe" id="bancpublicid">
                     </div>
                     <input type="submit" value="Valider">
             </fieldset>
