@@ -10,4 +10,8 @@ print $_POST['lastname'];
 print $_POST['firstname'];
 print $_POST['sexe'];
 print $_POST['textarea'];
+$email = htmlspecialchars($_POST['email']);
+$lastname  = htmlspecialchars($_POST['lastname']);
+
+echo  $email, ' ', $to;
 ?>

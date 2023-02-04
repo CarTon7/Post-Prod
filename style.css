@@ -1,12 +1,21 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url(asset/Fonts/Oswald/static/Oswald-Medium.ttf) format(truetype);
+}
 body {
     background-color: rgba(240,210,18,255);
 }
 h1  {
+    padding: 1em;
     text-transform: uppercase;
     text-align: center;
-    font-family:'Segoe UI', sans-serif;
-    color: rgba(56,38,98,255);
-    text-shadow: 3px 3px 8px #000;
+    font-family:'Oswald', sans-serif;
+    color: rgb(49 11 137);
+    text-shadow: px 3px 8px #000000ba;
+    width: 1860px;
+    height: 50px;
+    background-color: beige;
+    align-self: center;
 }
 main {
         min-height: 500px;
